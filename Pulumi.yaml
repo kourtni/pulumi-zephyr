@@ -1,0 +1,7 @@
+name: zephyr
+description: A Go program to deploy the Zephyr web app
+runtime: go
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go
